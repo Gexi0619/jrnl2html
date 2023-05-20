@@ -10,15 +10,20 @@ xhr.onreadystatechange = function() {
     var jsonData = JSON.parse(xhr.responseText);
 
     // 遍历JSON数据，创建时间线条目
-    jsonData.entries.forEach(function(entry) {
+    jsonData.entries.sort(function(a, b) {
+      // 将日期和时间结合并转换为时间戳进行比较
+      var dateTimeA = new Date(a.date + ' ' + a.time).getTime();
+      var dateTimeB = new Date(b.date + ' ' + b.time).getTime();
+      // 按时间从最新到最旧排序
+      return dateTimeB - dateTimeA;
+    }).forEach(function(entry) {
       // 创建时间线条目的HTML元素
       var listItem = document.createElement("li");
       listItem.className = "timeline-item";
-      
+
       // 构建时间线条目内容
       var content = "<h3>" + entry.title + "</h3>";
-      content += "<p>Date: " + entry.date + "</p>";
-      content += "<p>Time: " + entry.time + "</p>";
+      content += "<p>" + entry.date + " " + entry.time + "</p>";
 
       // 将内容添加到时间线条目中
       listItem.innerHTML = content;

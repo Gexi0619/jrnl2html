@@ -1,0 +1,25 @@
+/* 样式化时间线外观 */
+.timeline {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .timeline-item {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+  }
+  
+  .timeline-item h3 {
+    margin: 0;
+    color: #333;
+    font-size: 18px;
+  }
+  
+  .timeline-item p {
+    margin: 5px 0 0;
+    color: #777;
+    font-size: 14px;
+  }
+  
