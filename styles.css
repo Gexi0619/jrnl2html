@@ -1,0 +1,10 @@
+/* 样式化时间线外观 */
+.timeline {
+  list-style: none;
+  padding: 0;
+}
+.timeline-item {
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
