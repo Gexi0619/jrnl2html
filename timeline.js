@@ -24,6 +24,7 @@ xhr.onreadystatechange = function() {
       // 构建时间线条目内容
       var content = "<h3>" + entry.title + "</h3>";
       content += "<p>" + entry.date + " " + entry.time + "</p>";
+      content += "<p>" + entry.body + "</p>"; // 添加 body 内容
 
       // 将内容添加到时间线条目中
       listItem.innerHTML = content;
