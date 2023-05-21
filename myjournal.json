@@ -1,0 +1,73 @@
+{
+  "tags": {
+    "@dad": 1,
+    "@mom": 1,
+    "@exercise": 1,
+    "@coding": 2,
+    "@jrnl2web": 1,
+    "@snh48": 1
+  },
+  "entries": [
+    {
+      "title": "@exercise.",
+      "body": "write down my feelings about training",
+      "date": "2023-05-20",
+      "time": "12:00",
+      "tags": [
+        "@exercise"
+      ],
+      "starred": false
+    },
+    {
+      "title": "Talked to Dad and Mom @dad @mom",
+      "body": "",
+      "date": "2023-05-20",
+      "time": "15:00",
+      "tags": [
+        "@dad",
+        "@mom"
+      ],
+      "starred": false
+    },
+    {
+      "title": "Installed jrnl",
+      "body": "",
+      "date": "2023-05-20",
+      "time": "19:05",
+      "tags": [],
+      "starred": false
+    },
+    {
+      "title": "Listened to the song 'Because I Love You' by SNH48 @snh48 @chord",
+      "body": "",
+      "date": "2023-05-20",
+      "time": "22:38",
+      "tags": [
+        "@chord",
+        "@snh48"
+      ],
+      "starred": false
+    },
+    {
+      "title": "Learned to use Chrome's DevTools to overcome CORS issue when loading JS, can create a Node server to solve it @coding",
+      "body": "",
+      "date": "2023-05-21",
+      "time": "01:06",
+      "tags": [
+        "@coding"
+      ],
+      "starred": false
+    },
+    {
+      "title": "Completed the initial version of jrnl2hrml.",
+      "body": "@coding @jrnl2web",
+      "date": "2023-05-21",
+      "time": "02:59",
+      "tags": [
+        "@coding",
+        "@jrnl2html"
+      ],
+      "starred": false
+    }
+  ]
+}
