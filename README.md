@@ -16,7 +16,8 @@ git clone https://github.com/Gexi0619/jrnl2html.git
 jrnl --format json --file /path/to/myjournal.json
 ```
 
+Or run the `jrnlgit.sh` in bash to create the jrnl's JSON data and push directly to Github.
+
 3. Open `index.html` to view the webpage.
 
    Note: When opening `index.html` locally, you may encounter CORS-related issues.
-
